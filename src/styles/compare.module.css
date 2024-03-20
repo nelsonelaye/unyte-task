@@ -1,0 +1,13 @@
+.column_container {
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+  padding: 0px 24px;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 640px) {
+  .column_container {
+    column-gap: 80px;
+  }
+}

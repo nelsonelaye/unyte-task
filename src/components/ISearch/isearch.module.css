@@ -1,0 +1,36 @@
+.input_container {
+  position: relative;
+  margin: 0px auto;
+  max-width: 32rem;
+  width: 95%;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  position: absolute;
+  left: 0;
+  padding-left: 12px;
+  top: 0px;
+  bottom: 0px;
+}
+
+.Input {
+  width: 100%;
+  border: 2px solid grey;
+  border-radius: 6px;
+  padding: 8px 16px 8px 40px;
+}
+
+Input:focus {
+  border-color: rgba(59, 130, 246, 0.5);
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .input_container {
+    width: full;
+  }
+}

@@ -1,0 +1,42 @@
+.header {
+  margin: 0px auto;
+  margin-bottom: 20px;
+  padding: 20px 24px;
+}
+
+.navigations {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.nav_item {
+  margin-top: 12px;
+  color: rgba(75, 85, 99, 0.6);
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.nav_item:hover {
+  color: rgba(75, 85, 99, 0.8);
+}
+
+.active {
+  color: black;
+}
+
+@media screen and (min-width: 640px) {
+  .header {
+    padding: 32px 24px;
+  }
+
+  .navigations {
+    flex-direction: row;
+  }
+
+  .nav_item {
+    margin: 0px 12px;
+  }
+}
